@@ -111,13 +111,13 @@ trend_data = pd.DataFrame({
 # ---------------------------------------------------------------
 # HEADER
 # ---------------------------------------------------------------
-st.markdown("<h1 class='title'>Suicide in India (NCRB 2023)</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='title'>Suicide in India (NCRB 20-2023)</h1>", unsafe_allow_html=True)
 
 # ---------------------------------------------------------------
 # METRICS SECTION
 # ---------------------------------------------------------------
 metrics = {
-    "Total suicides (2023)": 171418,
+    "Total suicides (20-2023)": 171418,
     "Change from 2022 (%)": 0.3,
     "National rate (per 100k)": 12.4,
     "Male (%)": 72.8,
@@ -125,7 +125,7 @@ metrics = {
 }
 
 col1, col2, col3, col4 = st.columns(4)
-col1.markdown(f"<div class='metric-card metric-red'><h3>Total suicides</h3><h2>{metrics['Total suicides (2023)']:,}</h2></div>", unsafe_allow_html=True)
+col1.markdown(f"<div class='metric-card metric-red'><h3>Total suicides</h3><h2>{metrics['Total suicides (20-2023)']:,}</h2></div>", unsafe_allow_html=True)
 col2.markdown(f"<div class='metric-card metric-green'><h3>Change from 2022</h3><h2>{metrics['Change from 2022 (%)']}%</h2></div>", unsafe_allow_html=True)
 col3.markdown(f"<div class='metric-card metric-purple'><h3>Rate (per 100k)</h3><h2>{metrics['National rate (per 100k)']}</h2></div>", unsafe_allow_html=True)
 col4.markdown(f"<div class='metric-card metric-lavender'><h3>Male : Female</h3><h2>{metrics['Male (%)']} : {metrics['Female (%)']}</h2></div>", unsafe_allow_html=True)
