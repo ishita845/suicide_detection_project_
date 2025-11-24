@@ -10,5 +10,8 @@ nltk
 plotly
 tweepy==4.15.0
 praw>=7.8.1
+matplotlib
+
 
 requests==2.31.0
+
