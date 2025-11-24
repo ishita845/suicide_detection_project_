@@ -1,4 +1,4 @@
-torch==2.2.0
+torch
 streamlit
 pandas
 numpy
@@ -10,4 +10,5 @@ nltk
 plotly
 tweepy==4.15.0
 praw>=7.8.1
+
 requests==2.31.0
